@@ -1,0 +1,140 @@
+/* Basic styles to get you started; customize as needed! */
+.app {
+    font-family: sans-serif;
+    max-width: 800px;  /* Keep content from getting too wide */
+    margin: 20px auto;  /* Center the content */
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a border around the whole app */
+    border-radius: 8px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.filter-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px; /* Give filters some bottom margin */
+}
+
+.filter-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    flex-grow: 1; /* Allow inputs to expand to fill space */
+
+}
+
+.filter-button {
+    padding: 8px 12px;
+    background-color: #007bff; /* Bootstrap-like blue */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.character-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table-row {
+    cursor: pointer; /* Indicate clickable rows */
+
+}
+
+.character-table th,
+.character-table td {
+
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+
+}
+
+
+.character-table tr:hover {
+    background-color: #f5f5f5;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center; /* Center the pagination */
+    list-style: none;
+    padding: 0;
+}
+
+.page-item {
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.page-link {  /* Style the <a> tags inside the list items */
+    padding: 6px 12px;
+    display: block;
+    text-decoration: none; /* Remove underlines from links */
+    color: #333;
+}
+
+
+.page-item:hover {
+    background-color: #f5f5f5;
+}
+
+.page-item.active .page-link {  /* Style the active page link */
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.page-item.disabled .page-link{  /* Style disabled links */
+  pointer-events: none; /* Prevent interaction with disabled links */
+  opacity: 0.5; /* Make disabled links appear faded */
+
+}
+
+.character-details {
+    display: flex; /* Arrange image and info horizontally */
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+
+
+.character-image {
+    max-width: 200px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+
+.character-info {
+    flex-grow: 1;  /* Allow the info section to expand */
+
+}
+
+.character-name {
+    margin-top: 0;
+
+}
+
+.detail-label {
+    font-weight: bold;
+    margin-right: 5px;
+
+
+}
+
+.no-results-message {
+    text-align: center;
+    font-style: italic;
+    color: #999;
+    margin-bottom: 20px;
+}

@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+# Rick and Morty Karakter Gezgini
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, Rick and Morty API'sini kullanarak karakterleri listeleyen, filtreleyen ve sayfalandıran bir React uygulamasıdır.
 
-## Available Scripts
+## Özellikler
 
-In the project directory, you can run:
+* Karakter Listesi: Rick and Morty evrenindeki karakterlerin listesini görüntüler.
+* Filtreleme: Karakterleri isim, durum ve türe göre filtreleyebilirsiniz.
+* Sayfalandırma:  Büyük veri kümelerini yönetmek için sayfalandırma özelliği bulunur.
+* Karakter Detayları: Herhangi bir karaktere tıklayarak detaylı bilgilerini görebilirsiniz.
+* Kullanıcı Dostu Arayüz: Modern ve temiz bir arayüz ile kolay kullanım sağlar.
 
-### `npm start`
+## Kurulum
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Projeyi klonlayın: `git clone <repository_url>`
+2. Gerekli bağımlılıkları yükleyin: `npm install` veya `yarn install`
+3. Uygulamayı başlatın: `npm start` veya `yarn start`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Kullanım
 
-### `npm test`
+* Filtreleme: Filtreleme kutularına istediğiniz kriterleri girin ve "Filtrele" butonuna tıklayın.
+* Sayfalandırma:  Sayfalandırma kontrollerini kullanarak farklı sayfalar arasında geçiş yapın.
+* Karakter Detayları:  Herhangi bir karaktere tıklayarak detaylı bilgilerini (resim, durum, tür, cinsiyet, köken, konum) görüntüleyin.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Teknolojiler
 
-### `npm run build`
+* React: JavaScript kütüphanesi
+* TypeScript:  Tip güvenliği için TypeScript kullanılmıştır.
+* Axios: API istekleri için Axios kullanılır.
+* React Paginate:  Sayfalandırma için React Paginate kütüphanesi kullanılmıştır.
+* CSS:  Stillendirme için CSS kullanılır. (veya styled-components)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Geliştirme
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Bu proje, daha fazla özellik eklenerek geliştirilebilir:
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Sıralama:  Karakterleri farklı kriterlere göre sıralama özelliği eklenebilir.
+* Daha Fazla Filtre:  Daha fazla filtreleme seçeneği (örneğin, bölüm) eklenebilir.
+* Gelişmiş Stillendirme:  Daha gelişmiş ve özelleştirilmiş stillendirme yapılabilir.
+* Hata Yönetimi:  Daha kapsamlı hata yönetimi ve kullanıcıya daha bilgilendirici mesajlar gösterilebilir.
+  
